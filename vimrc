@@ -9,7 +9,8 @@ filetype plugin indent on
 " set nowrap
 " Colorscheme
 set background=dark
-colorscheme tomorrow_night
+"colorscheme tomorrow_night
+colorscheme jellybeans
 " Turn on line numbers
 set number
 set numberwidth=4
@@ -17,8 +18,8 @@ set backspace=indent,eol,start  "Allow backspace in insert mode
 set showcmd                     "Show incomplete cmds down the bottom
 set showmode                    "Show current mode down the bottom
 set hidden                      "Allow current buffer to be put in
-				" background
-				"without being written to disk
+				                " background
+				                "without being written to disk
 
 set colorcolumn=120 "to help us keep our lines under 120 chars
 set shiftwidth=4
@@ -43,6 +44,10 @@ au FileType python set omnifunc=pythoncomplete#Complete
 au FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 au FileType html set omnifunc=htmlcomplete#CompleteTags
 au FileType css set omnifunc=csscomplete#CompleteCSS
+
+"--- MRU configs ---
+let MRU_Max_Entries = 20
+let MRU_Exclude_Files = '^/tmp/.*\|^/var/tmp/.*'  " For Unix
 
 "------  Tagbar Options  ------
 " http://adamyoung.net/Exuberant-Ctags-OS-X
