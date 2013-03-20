@@ -2,7 +2,7 @@ My Vim settings.
 
 Setup notes (should be updated):
 
-    git clone git@github.com/pavelbogomolenko/vim.git
+    git clone https://github.com/pavelbogomolenko/vim.git
 
     mv vim .vim
     cd .vim

@@ -46,6 +46,9 @@
 [submodule "bundle/mru"]
 	path = bundle/mru
 	url = https://github.com/vim-scripts/mru.vim.git
-[submodule "bundle/python-mode"]
-	path = bundle/python-mode
-	url = git://github.com/klen/python-mode.git
+[submodule "bundle/jedi"]
+	path = bundle/jedi
+	url = https://github.com/davidhalter/jedi.git
+[submodule "bundle/php-remote-debug"]
+	path = bundle/php-remote-debug
+	url = https://github.com/vim-scripts/DBGp-Remote-Debugger-Interface

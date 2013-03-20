@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/pavelbogomolenko/Documents/www/aoe/homepage/typo3conf/ext/aoe_twitter'
+let g:netrw_dirhist_2='/Users/pavelbogomolenko/Documents/www/aoe/dqs-remote/ext/aoe_feuserhandling'
+let g:netrw_dirhist_3='/Users/pavelbogomolenko/Documents/www/aoe/dqs-remote/ext/dqs2013_configuration/static/portal_mydqs'
+let g:netrw_dirhist_4='/Users/pavelbogomolenko/Documents/www/aoe/dqs-remote/ext'

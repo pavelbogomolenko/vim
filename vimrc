@@ -6,7 +6,7 @@ syntax on
 filetype plugin indent on
 
 " don't wrap lines
-" set nowrap
+set nowrap
 " Colorscheme
 set background=dark
 "colorscheme tomorrow_night
@@ -31,8 +31,6 @@ set smartindent
 " show matching braces, brackets and such
 set showmatch
 
-let g:Powerline_symbols = 'fancy'
-
 "status line
 set laststatus=2
 set statusline=%{fugitive#statusline()}\ %F%m%r%h%w\ [fmt=%{&ff}]\ [type=%Y]\ [pos=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
@@ -55,6 +53,17 @@ let MRU_Exclude_Files = '^/tmp/.*\|^/var/tmp/.*'  " For Unix
 let g:tagbar_ctags_bin='/usr/local/bin/ctags'
 let g:tagbar_width=26
 noremap <silent> <Leader>y :TagbarToggle<CR>
+
+"--- Powerline configs ---
+let g:Powerline_symbols = 'fancy'
+
+"--- Python mode settings ---
+" Set key 'R' for run python code
+"let g:pymode_run_key = 'R'
+" Load show documentation plugin
+"let g:pymode_doc = 1
+" Key for show python documentation
+"let g:pymode_doc_key = 'K'
 
 " Mappings
 nmap <F9> :NERDTree<cr>
