@@ -57,6 +57,10 @@ noremap <silent> <Leader>y :TagbarToggle<CR>
 "--- Powerline configs ---
 let g:Powerline_symbols = 'fancy'
 
+"--- NERD_tree config ---
+let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$', '\.swp$']
+
+
 "--- Python mode settings ---
 " Set key 'R' for run python code
 "let g:pymode_run_key = 'R'
