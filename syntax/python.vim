@@ -379,4 +379,4 @@ iab auth! __author__ = "Pavel Bogomolenko"<cr>__version__ = "0.1"<cr>__status__ 
 
 let b:current_syntax = "python"
 
-set ts=4 sts=4 sw=4 noexpandtab
+" set ts=4 sts=4 sw=4 noexpandtab

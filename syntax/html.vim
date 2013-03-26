@@ -237,4 +237,4 @@ if main_syntax == 'html'
 endif
 
 " vim: ts=2
-set ts=4 sts=4 sw=4 expandtab
+" set ts=4 sts=4 sw=4 expandtab

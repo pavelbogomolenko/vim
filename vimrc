@@ -22,9 +22,21 @@ set hidden                      "Allow current buffer to be put in
 				                "without being written to disk
 
 set colorcolumn=120 "to help us keep our lines under 120 chars
+"set shiftwidth=4
+"set tabstop=4
+"set expandtab
+"set noexpandtab
+
+" tabs vs spaces configuration
+set noexpandtab
+set copyindent
+set preserveindent
+set softtabstop=4
 set shiftwidth=4
 set tabstop=4
-set expandtab
+
+" list special chars
+set list listchars=tab:▸\ ,trail:.
 
 " smart indentation overriden by individual filetype settings
 set smartindent
