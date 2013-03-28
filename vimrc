@@ -35,6 +35,12 @@ set softtabstop=4
 set shiftwidth=4
 set tabstop=4
 
+" configure backup folders and backups
+set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set undodir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp	" undo files
+set backup	" enable backups
+
 " list special chars
 set list listchars=tab:▸\ ,trail:.
 
