@@ -1,18 +1,21 @@
-My Vim settings.
+My Vim settings for web develpment. PHP, Python, JS + HTML.
+The only external dependency is Ctags. Also your vim should be compiled with Python support.
 
-Setup notes (should be updated):
+Setup notes:
 
-    git clone https://github.com/pavelbogomolenko/vim.git
+	" cloning repo into your home directory
+	git clone https://github.com/pavelbogomolenko/vim.git
 
-    mv vim .vim
-    cd .vim
+	mv vim .vim
+	cd .vim
 
-    git submodule init
-    git submodule update
+	" updating submodules
+	git submodule init
+	git submodule update
 
-    ln -s ~/.vim/gvimrc ~/.gvimrc
-    ln -s ~/.vim/vimrc ~/.vimrc
+	" create symlink
+	ln -s ~/.vim/vimrc ~/.vimrc
 
-If you want to update all bundles as well use:
+To update all bundles as well use:
 
-    git submodule foreach git pull origin master --recurse-submodules
+	git submodule foreach git pull origin master --recurse-submodules
