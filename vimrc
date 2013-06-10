@@ -1,5 +1,6 @@
 set nocompatible
 scriptencoding utf-8
+set ffs=unix,dos
 
 execute pathogen#infect()
 syntax on
