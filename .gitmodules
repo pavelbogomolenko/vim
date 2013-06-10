@@ -52,3 +52,6 @@
 [submodule "bundle/php-remote-debug"]
 	path = bundle/php-remote-debug
 	url = https://github.com/vim-scripts/DBGp-Remote-Debugger-Interface
+[submodule "bundle/vim-scala"]
+	path = bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala
