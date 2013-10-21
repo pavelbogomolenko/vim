@@ -92,3 +92,10 @@ let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$', '\.swp$']
 nmap <F9> :NERDTree<cr>
 nmap <F8> :TagbarToggle<CR>
 map <F1> :set nonumber !<cr>
+
+" requirejs boilerplate define statement
+iab define! define('name',<cr>['dep'],<cr>function(dep) {<cr>return {};<cr>}<cr>);
+
+" PHP Q&A configs
+let g:phpqa_codesniffer_args = "--standard=aoe"
+let g:phpqa_messdetector_autorun = 0

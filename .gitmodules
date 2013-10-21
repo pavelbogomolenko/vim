@@ -55,3 +55,6 @@
 [submodule "bundle/vim-scala"]
 	path = bundle/vim-scala
 	url = https://github.com/derekwyatt/vim-scala
+[submodule "bundle/vim-phpqa"]
+	path = bundle/vim-phpqa
+	url = https://github.com/joonty/vim-phpqa
